@@ -1,0 +1,71 @@
+header,
+body,
+#taskAdd {
+  border-radius: 15px;
+}
+
+header,
+#taskAdd,
+::placeholder {
+  background-color: #af7eeb;
+  text-align: center;
+  padding: 7px 0px 7px 0px;
+  color: white;
+  border: none;
+}
+
+h2 {
+  color: white;
+  font-style: normal;
+  text-align: center;
+}
+
+#imageBackground {
+  background-color: white;
+  background-image: url("../assets/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+  background-position: center;
+  align-self: center;
+  min-height: 250px;
+  //padding: 15px;
+}
+
+li {
+  color: black;
+  display: flex;
+  margin-left: 25px;
+  align-items: center;
+}
+
+#actionButtons {
+  align-items: center;
+  position: relative;
+  margin-left: 5px;
+  display: flex;
+}
+
+#taskAdd {
+  width: 80%;
+  //margin-top: 5em;
+}
+
+#deleteAll {
+  position: absolute;
+  margin-right: 2em;
+  right: 0;
+  text-align: center; 
+}
+
+#deleteall:hover{
+  color:#000000
+}
+
+footer {
+  background-color: #af7eeb;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  margin-top: 5em;
+}
